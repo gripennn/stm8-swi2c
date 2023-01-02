@@ -24,7 +24,7 @@
 #define SWI2C_SCL_HALFPERIOD_TIME  5
 ```
 
-* Do not forget call `swi2c_init()` before use any I2C function!
+* ⚠ Do not forget call `swi2c_init()` before use any I2C function!
 
 ## Functions
 
@@ -32,7 +32,7 @@
 void swi2c_init(void);
 ```
 
-* Inicializuje software I2C
+* Software I2C initialization
 * It is required to call this function before calling the functions mentioned below
 
 ```c
